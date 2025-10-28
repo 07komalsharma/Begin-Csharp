@@ -36,8 +36,25 @@ namespace CSharp_Learning
             Console.WriteLine("sb2 = " + sb2);
 
 
+            // Conversion StringBuilder to string 
+
+            StringBuilder strr = new StringBuilder("Hello");
+            // conversion from StringBuilder 
+            // object to String using ToString method 
+            string sttt = strr.ToString();
+            Console.WriteLine(sttt);
+
+            // Conversion from String to StringBuilder
+            String strg = "Geeks";
+
+            // conversion from String object 
+            // to StringBuilder 
+            StringBuilder sbl = new StringBuilder(strg);
+            sbl.Append("jiii");
+            Console.WriteLine(sbl);
+
+
             Console.ReadKey();
         }
     }
 }
-
